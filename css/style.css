@@ -1,29 +1,80 @@
+/* VARIÁVEIS GLOBAL*/
+ .bg-color-one {
+     background-image: linear-gradient(to right, var(--cor3), var(--cor4));
+ }
 
-.row {
-    align-items: center;
+ :root {
+    --cor0: #64069A;
+    --cor1: #9860B8;
+    --cor2: #A778C3;
+    --cor3: #4484b871;
+    --cor4: #74c07c9f;
+    --cor5: #fff;
+    --cor6: #000;
+    /* Cores teclas */
+    --cor7: #1C1C25;
+    --cor8: #241653;
+    --cor9: #4f3b9971;
+    --cor10: #673AE1;
+    --cor11: #9C7CF8;
 }
+
+
+
+
+/* CONTAINER DO TECLADO OPÇÃO UM*/
+/*
 .container-teclado {
-    border: 1px solid #000;
+    border: 1px solid var(--cor6);
     padding: 5px;
     border-radius: 20px 20px 30% 30%;
-    margin: auto;
+    background-image: linear-gradient(to right, var(--cor9), var(--cor3), var(--cor4));
+    box-shadow: 3px 3px 12px var(--cor6);
 }
-
+*/
+/* TECLAS OPÇÃO UM */
+/*
 .teclado {
-    border: 1px solid #000;
+    font-weight: bold;
+    color: var(--cor6);
+    border: 1px solid var(--cor6);
     padding: 3px;
     margin: 3px;
     width: 20%;
     text-align: center;
     border-radius: 8px;
+    background-image: linear-gradient(to left, var(--cor9), var(--cor3), var(--cor4) );
+    box-shadow: 3px 3px 6px var(--cor6);
+    cursor: pointer;
+}
+*/
+ /* OPÇÃO UM */
+ /*
+.teclado:hover {
+    background-image: linear-gradient(to right, var(--cor9), var(--cor3), var(--cor4));
+}
+ */
+ .container-teclado {
+    border: 1px solid var(--cor6);
+    padding: 5px;
+    border-radius: 20px 20px 30% 30%;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 3px 3px 12px var(--cor6);
 }
 
-.teclado-b {
-    border: 1px solid #000;
+ .teclado {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.747);
+    border: 1px solid var(--cor6);
     padding: 3px;
     margin: 3px;
-    width: 10%;
+    width: 20%;
     text-align: center;
     border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.048);
+    box-shadow: 3px 3px 6px var(--cor6);
+    cursor: pointer;
 }
-
+.teclado:hover {
+    background-image: linear-gradient(to right, var(--cor9), var(--cor3), var(--cor4));
+}
