@@ -63,7 +63,8 @@
     box-shadow: 3px 3px 12px var(--cor6);
 }
 
-
+/*Teclas opção two */
+/*
  .teclado {
     font-weight: bold;
     color: rgba(0, 0, 0, 0.747);
@@ -74,6 +75,27 @@
     height: 2.3em;
     text-align: center;
     border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.048);
+    box-shadow: 3px 3px 6px var(--cor6);
+    cursor: pointer;
+}
+.teclado:hover {
+    background-image: linear-gradient(to right, var(--cor9), var(--cor3), var(--cor4));
+}
+*/
+
+/*Teclas opção three */
+/*Teclas opção two */
+.teclado {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.747);
+    border: 1px solid var(--cor6);
+    padding: 3px;
+    margin: 3px;
+    width: 2.3em;
+    height: 2.3em;
+    text-align: center;
+    border-radius: 50%;
     background-color: rgba(0, 0, 0, 0.048);
     box-shadow: 3px 3px 6px var(--cor6);
     cursor: pointer;
